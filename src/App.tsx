@@ -9,7 +9,7 @@ function App() {
   const { register, handleSubmit, watch, formState: {errors}, reset } = useForm();
 
   return (
-    <div className="w-full lg:h-screen grid grid-cols-1 lg:grid-cols-3 dark:bg-slate-800">
+    <div className="w-full h-screen grid grid-cols-1 lg:grid-cols-3 dark:bg-slate-800">
       <div className="w-full lg:h-full h-56 relative
           bg-[image:var(--bg-mobile)] lg:bg-[image:var(--bg-desktop)] 
           bg-cover"

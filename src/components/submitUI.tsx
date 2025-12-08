@@ -1,7 +1,7 @@
 export const SubmitUI = (props: {setStatus:React.Dispatch<React.SetStateAction<string>>}) => (
     <div className="max-w-xs mx-auto">
         <div className="space-y-4">
-            <img src="/src/images/icon-complete.svg" 
+            <img src="/CardDetailsForm/src/images/icon-complete.svg" 
                 alt="Icon-complete"
                 className="mx-auto" 
             />
