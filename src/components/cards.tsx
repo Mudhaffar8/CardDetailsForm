@@ -5,7 +5,7 @@ export const Cards = (props: {watch : UseFormWatch<FieldValues>}) => (
             left-1/2 top-1/2 -translate-y-[37%] -translate-x-1/2
             lg:left-full lg:-translate-y-1/2">
         <div className="absolute right-0 max-lg:top-0 lg:bottom-0">
-            <img src="/CardDetailsForm/src/images/bg-card-back.png"
+            <img src="https://raw.githubusercontent.com/Mudhaffar8/CardDetailsForm/refs/heads/deploy/src/images/bg-card-back.png"
                 alt="card-back" 
                 width="290"
             />
@@ -14,11 +14,11 @@ export const Cards = (props: {watch : UseFormWatch<FieldValues>}) => (
             </small>
         </div>
         <div className="absolute max-lg:bottom-0 left-0 lg:top-0">
-            <img src="/CardDetailsForm/src/images/bg-card-front.png" 
+            <img src="https://raw.githubusercontent.com/Mudhaffar8/CardDetailsForm/refs/heads/deploy/src/images/bg-card-front.png" 
                 alt="card-front" 
                 width="290"
             />
-            <img src="/CardDetailsForm/src/images/card-logo.svg" 
+            <img src="https://raw.githubusercontent.com/Mudhaffar8/CardDetailsForm/refs/heads/deploy/src/images/card-logo.svg" 
                 alt="card-logo" 
                 className="absolute left-4 top-4"
                 width="50"
